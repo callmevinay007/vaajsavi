@@ -1,0 +1,112 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/image"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/image"
+        android:textColor="#ffff8600" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/desc"
+        android:id="@+id/creditsLabel"
+        android:text="Credits:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/creditsLabel"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/desc"
+        android:id="@+id/credits"
+        android:text="25000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/credits"
+        android:id="@+id/investmentLabel"
+        android:text="My Investment:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/investmentLabel"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/credits"
+        android:id="@+id/investment"
+        android:text="5000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/investment"
+        android:id="@+id/creditsEarnedLabel"
+        android:text="Credits Earned:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/creditsEarnedLabel"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/investment"
+        android:id="@+id/creditsEarned"
+        android:text="500"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/border"
+        android:background="#73360b"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/image"/>
+
+</RelativeLayout>
