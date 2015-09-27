@@ -22,13 +22,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         new DownloadImageTask((ImageView) findViewById(R.id.image)).
-                execute("http://img.youtube.com/vi/FWllhxWWNd8/default.jpg");
+                execute("http://img.youtube.com/vi/7GqClqvlObY/default.jpg");
 
         TextView imageTitle = (TextView)findViewById(R.id.title);
-        imageTitle.setText("Youtube Title");
+        imageTitle.setText("Youtube Video Title");
 
         TextView imageDesc = (TextView)findViewById(R.id.desc);
-        imageDesc.setText("Youtube description");
+        imageDesc.setText("Youtube Video description");
 
 
     }
