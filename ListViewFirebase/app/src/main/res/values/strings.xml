@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">YouTube Videos</string>
     <string name="action_settings">Settings</string>
+    <string name="app_id">1677211892494008</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

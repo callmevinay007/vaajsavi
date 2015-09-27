@@ -109,4 +109,11 @@
         android:layout_marginTop="30dp"
         android:layout_below="@id/image"/>
 
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+        android:name="com.chindichors.listviewfirebase.MainFragment"
+        tools:layout="@layout/fragment_main" android:layout_width="match_parent"
+        android:layout_below="@id/border"
+        android:layout_height="match_parent" />
+
 </RelativeLayout>

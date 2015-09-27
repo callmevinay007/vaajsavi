@@ -25,10 +25,10 @@ public class MainActivity extends Activity {
                 execute("http://img.youtube.com/vi/7GqClqvlObY/default.jpg");
 
         TextView imageTitle = (TextView)findViewById(R.id.title);
-        imageTitle.setText("YouTube Video Title");
+        imageTitle.setText("YouTube Video Title: ");
 
         TextView imageDesc = (TextView)findViewById(R.id.desc);
-        imageDesc.setText("YouTube Video Description");
+        imageDesc.setText("YouTube Video Description: ");
 
 
     }
